@@ -1,0 +1,14 @@
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\bin\Debug\netcoreapp2.1\RestWithASPNET.deps.json
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\bin\Debug\netcoreapp2.1\RestWithASPNET.runtimeconfig.json
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\bin\Debug\netcoreapp2.1\RestWithASPNET.runtimeconfig.dev.json
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\bin\Debug\netcoreapp2.1\RestWithASPNET.dll
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\bin\Debug\netcoreapp2.1\RestWithASPNET.pdb
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.csprojAssemblyReference.cache
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.csproj.CoreCompileInputs.cache
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.RazorAssemblyInfo.cache
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.RazorAssemblyInfo.cs
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.AssemblyInfoInputs.cache
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.AssemblyInfo.cs
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.RazorTargetAssemblyInfo.cache
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.dll
+C:\Users\danielcarvalho\Estudo RESTFUL\RestWithASP-NET\RestWithASPNET\RestWithASPNET\obj\Debug\netcoreapp2.1\RestWithASPNET.pdb
