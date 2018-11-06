@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "0f3f68eaf97c15d2fe88b9de767cc62341d75051"
+    "signature": "5de2684d1118f7cb5590a3d706ebe54ad6a2b639"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "RestWithASPNET/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.AspNetCore.Mvc.Versioning": "2.3.0",
           "Microsoft.NETCore.App": "2.1.0",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.2"
         },
@@ -33,6 +34,20 @@
         },
         "compile": {
           "RestWithASPNET.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/2.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.6731.24916"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.1.2": {
@@ -3218,6 +3233,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-imFDMw7KxV4hmhTiB5/39pYMPhoSLXSvwRL4vu/TVvqsoQFA/sEzNp+uB6oR4CYvZdrAvng2UJVcPJnoBx9YYA==",
+      "path": "microsoft.aspnetcore.mvc.versioning/2.3.0",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.2.3.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.1.2": {
       "type": "package",

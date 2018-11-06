@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 using RestWithASPNET.Model;
 using RestWithASPNET.Model.Context;
 
-namespace RestWithASPNET.Services.Implementations
+namespace RestWithASPNET.Services.Repository
 {
-    public class PersonServiceImpl : IPersonServices
+    public class PersonRepositoryImpl : IPersonRepository
     {
         private MySqlContext context;
-        public PersonServiceImpl(MySqlContext context)
+        public PersonRepositoryImpl(MySqlContext context)
         {
             this.context = context;
         }
@@ -93,6 +93,11 @@ namespace RestWithASPNET.Services.Implementations
         private long IncrementAndGet()
         {
             return Interlocked.Increment(ref count);
+        }
+
+        public bool Exists(long? id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
