@@ -11,12 +11,12 @@ namespace RestWithASPNET.Services.Repository
     public class PersonRepositoryImpl : IPersonRepository
     {
         private MySqlContext context;
+        private volatile int count;
+
         public PersonRepositoryImpl(MySqlContext context)
         {
             this.context = context;
-        }
-
-        private volatile int count;
+        }       
 
         public Person Create(Person person)
         {
@@ -59,7 +59,7 @@ namespace RestWithASPNET.Services.Repository
 
         public Person Update(Person person)
         {
-            if (!Exists(person)) return new Person();
+            if (!Exists(person)) return null;
 
             var result = context.Persons.SingleOrDefault(p => p.id.Equals(person.id));
             try

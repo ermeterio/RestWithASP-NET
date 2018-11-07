@@ -25,7 +25,7 @@ namespace RestWithASPNET.Controllers
             return Ok(_personBusiness.FindAll());
         }
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("v1/{id}")]
         public IActionResult Get(int id)
         {
             var person = _personBusiness.FindById(id);
@@ -46,12 +46,13 @@ namespace RestWithASPNET.Controllers
         [HttpPut("v1")]
         public IActionResult Put([FromBody] Person person)
         {
-            if (person == null)
-                return BadRequest();
-            return new ObjectResult(_personBusiness.Update(person));
+            if (person == null) return BadRequest();
+            var updatePerson = _personBusiness.Update(person);
+            if (updatePerson == null) return NoContent();
+            return new ObjectResult(updatePerson);
         }
         // DELETE api/values/5
-        [HttpDelete("{id}")]
+        [HttpDelete("v1/{id}")]
         public IActionResult Delete(int id)
         {
             _personBusiness.Delete(id);
